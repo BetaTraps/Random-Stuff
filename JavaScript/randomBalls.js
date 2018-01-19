@@ -105,9 +105,9 @@ function init(){
 function animate(){
     requestAnimationFrame(animate);
     //clears the the whole screen
-    //c.clearRect(0, 0, innerWidth, innerHeight);
-    c.fillStyle = "#111";
-    c.fillRect(0, 0, innerWidth, innerHeight);
+    c.clearRect(0, 0, innerWidth, innerHeight);
+    //c.fillStyle = "#111";
+    //c.fillRect(0, 0, innerWidth, innerHeight);
 
     for(var i = 0; i< cirlcleArray.length; i++){
         cirlcleArray[i].update();

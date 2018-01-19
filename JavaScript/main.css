@@ -8,4 +8,5 @@ canvas{
     left: 0;
     right: 0;
     border:1px solid #000000;
+    background: #111;
 }
